@@ -1,0 +1,121 @@
+.container-countdown{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+    background: rgb(40 113 138 / 63%);
+    background-image: url(../assests/images/fateme-shahabi-QuEfTMR8np4-unsplash.jpg);
+    background-size: cover;
+  color: white;
+    display: flex;
+    background-blend-mode: multiply;
+    @media (min-width:1px) and (max-width:425px){
+        background-position-x: -100px;
+        background-position-y: 180px;
+        background-size: cover;
+}
+}
+
+.container-outer{
+  position: absolute;
+  top: 36%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+  width: 100%;
+  h1{
+    font-size: 10vw;
+    margin-bottom: 0;
+}
+h2{
+    font-size: 2vw;
+    margin-top: 0;
+}
+  @media (min-width:1px) and (max-width:425px){
+    top: 50%;
+    h1{
+        font-size: 12vw;
+    }
+}
+}
+span{
+    @media (min-width:1px) and (max-width:425px){
+        font-weight: bolder;
+}
+}
+
+input{
+    border: none;
+    padding: 10px 10px;
+    background: #1f1f1f;
+    border-radius: 0;
+    color: white;
+    width: 30%;
+    @media (min-width:1px) and (max-width:425px){
+        width: 60%;
+}
+}
+input::placeholder{
+    color: #484848;
+}
+button{
+    border: none;
+    padding: 12.5px 20px;
+    background: #1f1f1f;
+    color: white;
+    border-radius: 0;
+}
+.container-countdown-inner{
+    margin-top: 2%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    div:nth-child(1){
+        padding: 20px;
+        min-width: 63px;
+        font-weight: bold;
+        @media (min-width:1px) and (max-width:425px){
+            padding: 15px;
+            min-width: 94px;
+        }
+    }
+    div:nth-child(2){
+        padding: 20px;
+        min-width: 63px;
+        font-weight: bold;
+        @media (min-width:1px) and (max-width:425px){
+            padding: 15px;
+            min-width: 94px;
+        }
+    }
+    div:nth-child(3){
+        padding: 20px;
+        min-width: 63px;
+        font-weight: bold;
+        @media (min-width:1px) and (max-width:425px){
+            padding: 15px;
+            min-width: 94px;
+        }
+    }
+    div:nth-child(4){
+        padding: 20px;
+        min-width: 63px;
+        font-weight: bold;
+        @media (min-width:1px) and (max-width:425px){
+            padding: 15px;
+            min-width: 94px;
+        }
+    }
+}
+
+.big-text{ 
+    font-size: 80px;
+    color: white;
+    @media (min-width:1px) and (max-width:425px){
+        font-size: 12vw;
+      
+    }
+}

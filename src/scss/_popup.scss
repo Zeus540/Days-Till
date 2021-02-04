@@ -1,0 +1,23 @@
+.popup{
+    background: #1f1f1f94;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    div{
+        background: #1f1f1f;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        p{
+            padding: 130px 250px;
+            text-align: center;
+            line-height: 30px;
+            letter-spacing: 1.5px;
+        }
+    }
+}
+
+
